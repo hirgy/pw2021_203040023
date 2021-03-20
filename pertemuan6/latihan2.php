@@ -25,7 +25,7 @@ $mahasiswa = [
     "gambar" => "gylex.jpeg"
     ],
     [
-        "nama" => "Hans julio", 
+        "nama" => "James Bond", 
         "nrp" => "203040007",
         "email" => "james_bond@gmail.com",
         "jurusan" => "Teknik Mesin",
