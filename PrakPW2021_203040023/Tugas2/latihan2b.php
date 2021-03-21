@@ -26,7 +26,7 @@ function soal($style)
 <html lang="en">
 
 <head>
-    <title>Latihan2b_203040083</title>
+    <title>Latihan2b_203040023</title>
     <style>
         .center {
             border: 1px solid black;
