@@ -31,7 +31,7 @@ function hitungDeterminan($f, $a, $z, $i)
 
 <head>
 
-    <title>Latihan2d_203040003</title>
+    <title>Latihan2d_203040023</title>
     <style>
         .count {
             border: 1px solid black;
