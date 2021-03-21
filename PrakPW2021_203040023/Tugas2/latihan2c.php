@@ -21,7 +21,7 @@ function tumpukanBola($tumpukan)
 <html lang="eng">
 
 <head>
-    <title>Latihan2C_203040003</title>
+    <title>Latihan2C_203040023</title>
     <style>
         .bola {
             border-radius: 50%;
