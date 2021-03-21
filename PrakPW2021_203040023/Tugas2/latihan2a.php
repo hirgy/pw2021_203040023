@@ -9,7 +9,7 @@
 <html lang="en">
 
 <head>
-    <title>Latihan2a_203040083</title>
+    <title>Latihan2a_203040023</title>
     <style>
         .tulisan {
             font-size: 28px;
