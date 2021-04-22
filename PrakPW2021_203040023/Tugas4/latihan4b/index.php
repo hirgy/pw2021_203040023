@@ -3,7 +3,7 @@
 // Menghubungkan dengan file php lainya 
 require 'php/functions.php';
 
-//melakukan query biasa ke table hijab
+//melakukan query biasa ke table bundle
 $bundle = query("SELECT * FROM bundle");
 ?>
 <!DOCTYPE html>
