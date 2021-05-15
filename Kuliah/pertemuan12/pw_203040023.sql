@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2021 at 04:57 PM
+-- Generation Time: May 15, 2021 at 02:32 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.3.27
 
@@ -41,9 +41,28 @@ CREATE TABLE `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`, `gambar`) VALUES
-(1, '203040023', 'Hirgy', 'hirgy9@gmail.com', 'Teknik Informatika', './img/hirgy.jpg'),
-(2, '203040024', 'Hirgy Selfie', 'hirgyigy@gmail.com', 'Tekik Lingkungan', './img/hirgyselfie.jpg'),
-(3, '203040025', 'Hirgy Kecil', 'chillgy@gmail.com', 'Teknik Sipil', './img/hirgykecil.jpg');
+(1, '203040023', 'Hirgy', 'hirgy9@gmail.com', 'Teknik Informatika', 'hirgy.jpg'),
+(2, '203040024', 'Hirgy Selfie', 'hirgyigy@gmail.com', 'Tekik Lingkungan', 'hirgyselfie.jpg'),
+(3, '203040025', 'Hirgy Kecil', 'chillgy@gmail.com', 'Teknik Sipil', 'hirgykecil.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `username`, `password`) VALUES
+(1, 'hirgy', '$2y$10$s/NVVPi0zXjXmgEzGiGiTO4Odvrkm5IIrkvzTh48cDfORO6Vc7rku');
 
 --
 -- Indexes for dumped tables
@@ -54,6 +73,22 @@ INSERT INTO `mahasiswa` (`id`, `nrp`, `nama`, `email`, `jurusan`, `gambar`) VALU
 --
 ALTER TABLE `mahasiswa`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
